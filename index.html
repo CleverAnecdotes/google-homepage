@@ -3,13 +3,14 @@
     <head>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-</head>
+
+    </head>
 <body>
 <div class="top">
 <ul>
-<li><a class="Gmail">Gmail</a></li>
-<li><a class="Images">Images</a></li>
-<li><img class="Image" src="https://i.imgur.com/u3IrsHl.png"></li>
+<li><a class="Gmail" id="Text">Gmail</a></li>
+<li><a class="Images" id="Text">Images</a></li>
+<li><img class="Block" src="https://i.imgur.com/u3IrsHl.png"></li>
 <li><img class="Self" src="https://i.imgur.com/dp8HaQj.png"></li>
 </ul></div>
 <div class="Brand"><img class="Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
@@ -18,19 +19,22 @@
             <button label="GSButton">Google Search</button>
             <button label="IFLButton">I'm Feeling Lucky</button>
         </div>
+  <div class="square"></div>
         <div class="bottom">
-            <a class ="About">About</a>
-            <a class ="Advertising">Advertising</a>
-            <a class ="Business">Business</a>
-            <a class ="SAbout">How Search Works</a>            
-            <a class ="Privacy">Privacy</a>
-            <a class ="Terms">Terms</a>
-            <a class ="Settings">Settings</a>
+          <div class="Block1"></div>
+            <a class ="About" id="Text">About</a>
+            <a class ="Advertising" id="Text">Advertising</a>
+            <a class ="Business" id="Text">Business</a>
+            <a class ="SAbout" id="Text">How Search Works</a>        
+          <div class="Block2"></div>
+            <a class ="Privacy" id="Text">Privacy</a>
+            <a class ="Terms" id="Text">Terms</a>
+            <a class ="Settings" id="Text">Settings</a>
          </div>
+  <div class="Block3"></div>
     </body>
     </html>
-
-    #body {
+    <style>  #body {
         height: 100%;
         margin: 0;
         padding: 0;
@@ -64,3 +68,4 @@
         width: 272px;
         position: flex;
       }
+    </style>
