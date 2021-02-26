@@ -1,19 +1,19 @@
 <DOCTYPE!html>
     <html>
-
     <head>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class="top">
-            <a class ="Gmail">Gmail</a>
-            <a class ="Images">Images</a>
-            <img src="Select.png">
-            <img src="User.png">
-        </div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <div class="middle"><input type="search" placeholder="Search" for="SearchBar" label="Searchbar">
+</head>
+<body>
+<div class="top">
+<ul>
+<li><a class="Gmail">Gmail</a></li>
+<li><a class="Images">Images</a></li>
+<li><img class="Image" src="https://i.imgur.com/u3IrsHl.png"></li>
+<li><img class="Self" src="https://i.imgur.com/dp8HaQj.png"></li>
+</ul></div>
+<div class="Brand"><img class="Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"></div>
+<div class="middle"><input type="search" placeholder="Search" for="SearchBar" class="Searchbar">
             <br>
             <button label="GSButton">Google Search</button>
             <button label="IFLButton">I'm Feeling Lucky</button>
@@ -29,3 +29,38 @@
          </div>
     </body>
     </html>
+
+    #body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        min-width: 400px;
+        font-size: 14px;
+        font-family: 'Roboto', sans-serif;
+        color: #222;
+        background: #fff;
+        display: block;
+      }
+      ul {
+        list-style-type: none;
+        margin: 6px;
+        padding: 6px;
+      }
+      li {
+        display: inline;
+        float: center;
+      }
+      .Logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      }
+      
+      .middle {
+        text-align: center;
+        margin: 10px;
+      }
+      .Searchbar {
+        width: 272px;
+        position: flex;
+      }
